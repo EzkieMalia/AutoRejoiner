@@ -1,6 +1,6 @@
 queue_on_teleport([[
   if (game.PlaceId == 10179538382) then
-    loadstring(game:HttpGet("")()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EzkieMalia/AutoRejoiner/refs/heads/main/Main.lua")()
   else
     task.wait(30)
     getgenv().AutoRejoinerEnabled = true
